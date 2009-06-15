@@ -1,0 +1,28 @@
+/*button start*/
+.grabtn,.btnboxr,.grabtn_blue,.btnboxr_blue{display:inline-table;line-height:normal;vertical-align:middle;background-repeat:no-repeat;font-size:10px;font-weight:700;height:20px;white-space:nowrap}
+.grabtn,.grabtn_blue{text-transform:lowercase;margin:2px 0 2px 2px;padding:2px 5px 4px 10px}
+.btnboxr,.btnboxr_blue{width:5px;margin:2px 2px 2px 0;padding:2px 0 4px}
+.btnboxr_blue{background-image:url(http://static2.orkut.com/img/castro/btn_blue_r.png)}
+.grabtn_blue{background-image:url(http://static2.orkut.com/img/castro/btn_blue_l.png)}
+.grabtn_blue a{color:#FFF}
+.grabtn_blue a:hover{color:#FFF;text-decoration:underline}
+h2 img,h2 .grabtn,h2 .txtbtn,h2 .btnboxr{margin-top:2px}
+.module .topr_g{width:8px;font-size:1px;line-height:1px}
+.module .topl,.module .topl_lrg{height:5px;font-size:8px;line-height:8px}
+.module .topl_lrg{height:auto}
+.module .topr{width:8px;height:5px;font-size:8px;line-height:8px}
+.module .topr_lrg{width:51px;font-size:1px;line-height:1px}
+.module .botl,.module .botr{width:8px;height:8px;font-size:8px;line-height:1px}
+.module .boxmid,.module .boxmidsml,.module .boxmidlrg{padding-top:5px;padding-left:5px}
+.module .boxmidr,.module .boxmidsmlr{background-repeat:repeat-y;width:8px}
+.module .boxmidlrg{padding:7px 2px 2px 7px}
+.ev_dr_ad #guestListContainer .comma,.ev_dr_ad #guestListContainer .grabtn,.ev_dr_ad #guestListContainer .btnboxr,#guestListPicker .comma,#guestListPicker .grabtn,#guestListPicker .btnboxr{display:none}
+#guestListForm h2{margin:0}
+#guestListForm .listlight_c{padding:20px}
+.ev_dr_ad #guestListContainer .ev_inviter,#guestListPicker .ev_inviter{border-width:0 1px 1px}
+#choosePicture{width:226px}
+#choosePictureForm{width:212px;overflow:hidden}
+* html .grabtn,* html .boxbtnr{line-height:normal}
+.grabtn,.grabtnnf{background-image:url(http://static2.orkut.com/img/castro/btnbox_l.gif)}
+
+/*button end*/
