@@ -1,0 +1,42 @@
+body {
+	overflow:hidden;
+	background-color: #FFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000;
+	overflow:hidden;
+}
+
+
+.aboutgray {background:url(http://crazy-theme.googlecode.com/svn/trunk/v4/ico/by_down_gray.gif); 
+height:35px; color:#CCC; float:right;}
+.aboutblack {background:url(http://crazy-theme.googlecode.com/svn/trunk/v4/ico/by_down.gif); 
+height:35px; width:130px; color:#CCC; float:right;margin-left:100px;}
+.footer {background:#f2f2f2 url(http://crazy-theme.googlecode.com/svn/trunk/v4/ico/footer_bg.png) repeat-x top; width:100%; padding:5px; padding-top:15px;clear:both}
+
+.note {background:#ECF2F4; border:#DAE6E9 1px solid; padding:5px;
+-moz-border-radius:5px;-webkit-border-radius:5px;
+width:97%;}
+.note:hover {background:#CCC; border:#099 1px solid; color:#304463; cursor:auto}
+
+a:focus {
+	outline:1px dotted #666
+}
+.gorkut-BoxTitleBarLink, a:hover.gorkut-BoxTitleBarLink {
+	color:#fff;
+	float:right;
+	font-size:12px;
+	padding-right:5px
+}
+a:hover.gorkut-SimpleTextInputFormButtonAnchor {
+	text-decoration:underline
+}
+.gorkut-CommunityBox a:hover.gorkut-BoxTitleBarLink {
+	color:#00344F
+}
+	
+.abouttxt {margin-top:10px;}
