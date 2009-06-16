@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Type in Malayalam"
+author="Daniel Paul"
+author_email="danielpaul2008@gmail.com"
+description="Type malayalam in english text and this app will convert it to malayalam text . . ."
+screenshot="http://apps4opensocial.googlecode.com/svn/trunk/translate/malayalam-screen.png"
+thumbnail="http://apps4opensocial.googlecode.com/svn/trunk/translate/malayalam.png" />
+<Require feature="opensocial-0.7"/>
+<Require feature="views" />
+<Locale lang="en" country="us" />
+
+<Content type="html" view="canvas">
+<![CDATA[
+<!-- ALm6fM3e3ROy-U-ITlOn2CnJjfux9EVyUa1RgSEUxfHzM6fgNjnJ4xOtSfdRmAQ13rnvlgHLmKtj4QLRXZpTfZgT-EDb7itzUzPrCFyi7ycqNNxLdAefcUeM03cw0tcSaDyNTo5NFBL2ksy9IvYM84uzke4D_QMPRvP7xlSS7NcvOooavHaSp_agVvn4S68f4AD7tgLWmZmn -->
+<div align="center">
+<style type="text/css">
+@import url("http://apps4opensocial.googlecode.com/svn/trunk/translate/style.css");
+@import url("http://apps4opensocial.googlecode.com/svn/trunk/files/css/orkut.css");
+@import url("http://www.google.com/uds/modules/elements/transliteration/api.css");
+</style>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://www.google.com/uds/api/elements/1.0/d30ecdd732bad6c383b3e12db7cf503d/transliteration.I.js"></script>
+<script type="text/javascript" >
+google.load("elements", "1", {
+packages: "transliteration"
+});
+function onLoad() {
+var options = {
+sourceLanguage:
+google.elements.transliteration.LanguageCode.ENGLISH,
+destinationLanguage:
+google.elements.transliteration.LanguageCode.MALAYALAM,
+shortcutKey: 'ctrl+g',
+transliterationEnabled: true
+};
+var control =
+new google.elements.transliteration.TransliterationControl(options);
+control.makeTransliteratable(['transliterateTextarea']);
+}
+google.setOnLoadCallback(onLoad);
+
+</script>
+
+<script type="text/javascript">
+
+function Button1_onclick()
+{
+var x=document.getElementById("transliterateTextarea");
+x.value="";
+x.focus();
+}
+
+</script>
+	
+	<div class="note">
+<span><b>Tips:</b> ctrl + a = Select all  |  ctrl + c = Copy  |  ctrl + v = Paste </span>
+</div>
+<br />
+
+<form>
+<textarea  id="transliterateTextarea" style="width:760px;height:365px">Enter any text here to translate it to Malayalam . . .</textarea>
+<br />
+<input id="Button1" type="button" value="Clear" onclick="return Button1_onclick()" /></form>
+<br />
+
+
+
+<div class="aboutblack">
+<div class="abouttxt">Type in Malayalam © 2009</div></div>
+
+<div class="footer">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5943189393093647";
+/* orkut app translate */
+google_ad_slot = "1765790207";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+
+<script>gadgets.util.runOnLoadHandlers();</script>
+</div>
+
+
+]]>
+</Content>
+
+</Module>
